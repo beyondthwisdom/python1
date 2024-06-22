@@ -1,0 +1,26 @@
+Snake Case:
+Tüm harfler küçük olup kelimeler alt çizgi (_) ile ayrılır.
+Yaygın olarak değişken ve fonksiyon isimlendirmede kullanılır
+
+Örnek 
+total_score = 100
+user_name = "John"
+current_temperature = 23.5
+
+Camel Case:
+İlk kelimenin ilk harfi küçük, sonraki kelimelerin ilk harfi büyük yazılır.
+Genellikle JavaScript gibi diğer programlama dillerinde değişken ve fonksiyon isimlendirmede yaygındır, Python'da nadiren kullanılır.
+
+Örnek
+totalScore = 100
+userName = "John"
+currentTemperature = 23.5
+
+Pascal Case:
+Tüm kelimelerin ilk harfi büyük yazılır.
+Python'da genellikle sınıf isimlendirmede kullanılır.
+
+Örnek
+class User:
+class TemperatureSensor:
+    pass

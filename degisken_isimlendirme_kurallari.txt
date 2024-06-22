@@ -1,0 +1,16 @@
+Geçerli Karakterler:
+Değişken adları harflerle (a-z, A-Z) ve alt çizgi (_) ile başlayabilir.
+Devamında harfler, rakamlar (0-9) ve alt çizgi (_) kullanılabilir.
+Boşluk karakteri kullanılamaz.
+
+Başlangıç Karakteri:
+Değişken adları bir rakamla başlayamaz.
+
+Ayrılmış Kelimeler değişken adı olarak kullanılamaz
+False      await      else       import     pass
+None       break      except     in         raise
+True       class      finally    is         return
+and        continue   for        lambda     try
+as         def        from       nonlocal   while
+assert     del        global     not        with
+async      elif       if         or         yield
