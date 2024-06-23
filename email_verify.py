@@ -34,7 +34,13 @@ def get_valid_email():
             return email
         else:
             print("Geçersiz email formatı! Lütfen geçerli bir email adresi girin.")
+
 # Kullanıcı bilgilerini al ve doğrula
 name = get_valid_name()
 age = get_valid_age()
 email = get_valid_email()           
+
+print("\nKullanıcı Bilgileri:")
+print("\tAd:", name)
+print("\tYaş:", age)
+print("\tEmail:", email)
