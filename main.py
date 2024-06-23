@@ -140,21 +140,22 @@ def outer_function():
     print(enclosing_var)  # Çıktı: değiştirilmiş
 
 outer_function()
+print("-------------- Dışarıdan Veri Alma ---------------------")
 
+yas = input("Yaşınızı giriniz: ")
+print (f"Yaşınız {yas}")
 
+isim = input("İsminizi girin: ")
+print("Merhaba, " + isim + "!")
 
+print()
 
+sayi1 = input("Birinci sayıyı girin: ")
+sayi2 = input("İkinci sayıyı girin: ")
 
-
-
-
-
-
-
-
-
-
-
+# Girdi string olduğu için integer'a çevirmeliyiz
+toplam = int(sayi1) + int(sayi2)
+print("Girdiğiniz sayıların toplamı:", toplam)
 
 print("-----------------------------------------------------------")
 
